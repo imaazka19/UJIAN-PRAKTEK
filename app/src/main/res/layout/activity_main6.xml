@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity6"
+    android:background="#E62828">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="420dp"
+        android:layout_height="66dp"
+        android:background="#8BC34A"
+        android:gravity="center"
+        android:text="Bawang"
+        android:textSize="38dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.389" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="343dp"
+        android:layout_height="332dp"
+        android:background="#8BC34A"
+        android:text="Bawang merupakan istilah umum bagi sekelompok tumbuhan penting bagi manusia yang termasuk dalam genus Allium. Umbi, daun, atau bunga bawang dimanfaatkan sebagai sayuran atau sebagai rempah-rempah, tergantung bagaimana kita memandangnya."
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.897" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="460dp"
+        android:layout_height="259dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/bawang" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
